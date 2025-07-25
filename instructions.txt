@@ -1,0 +1,26 @@
+WhatsAppChecker - Step by Step
+
+1. Make sure you have:
+   - Python installed
+   - Selenium installed (`pip install selenium`)
+   - ChromeDriver for your browser version
+
+2. Copy your chromedriver.exe into this folder.
+
+3. Edit "numbers.txt" and add your phone numbers in international format (one per line).
+
+4. Run the script:
+   - Open Command Prompt or PowerShell
+   - Navigate to this folder
+   - Run: python check_whatsapp.py
+
+5. Scan QR code in Chrome when prompted
+
+6. The script will check each number and save the working ones in whatsapp_active.txt
+
+
+
+GoogeMapScrapper
+
+give names of cites in cites.txt
+All numbers willbe sotred in folder extractedShops
